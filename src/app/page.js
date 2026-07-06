@@ -1,10 +1,11 @@
 import Image from "next/image";
+import Hero from "./components/Hero";
 
 export default function Home() {
   return (
-   <>
-   here i am make unwind hotel booking web app
-   <p></p>
-   </>
+    <>
+
+      <Hero />
+    </>
   );
 }
