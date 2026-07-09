@@ -1,17 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+
+.custom-navbar {
+  background-color: transparent !important;
+}
+
 .hero {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   position: relative;
   background: url("/assets/bg_1.jpg") center center/cover no-repeat;
+  background-attachment: fixed;
 }
 
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(34, 34, 34, 0.5);
+  background: rgba(34, 34, 34, 0.6);
 }
 
 .hero>* {
   position: relative;
   z-index: 1;
+}
+
+.nav-item a {
+  letter-spacing: 2px;
+}
+
+.hero-content {
+  padding: 150px 0px !important;
+}
+
+.form-control::placeholder {
+  color: #656565;
+}
+
+.form-control:focus,
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: transparent !important;
+}
+
+input[type="date"] {
+  color: #fff;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  cursor: pointer;
+}
+
+.form-select {
+  background-color: #222222 !important;
+  color: #656565 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+
+  /* Custom Arrow */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23656565' viewBox='0 0 16 16'%3E%3Cpath d='M1.5 5.5l6 6 6-6' stroke='%23656565' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-size: 16px;
+  background-position: right 1rem center;
+}
+
+.form-select:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.form-select option {
+  background: #222222;
+  color: #656565;
+  font-weight: 700;
+}
+
+label {
+  color: #ffffff;
+}
+
+/* ===== about section ===== */
+
+.service-card:hover .service-content {
+  background-color: #222222;
+  transition: all 0.3s ease;
+}
+
+.service-card:hover .service-title {
+  color: #ffffff !important;
+}
+
+.service-card:hover .service-text {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.service-shape {
+  width: 100%;
+  height: 200px;
+  background: #ffffff;
+  border-radius: 330px 330px 330px 0 / 330px 330px 330px 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s;
+
+}
+
+.service-shape:hover {
+  background-color: #c5a880;
+  color: #ffffff;
+}
+
+.service-shape:hover p {
+  color: white !important;
+}
+
+.service-shape:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.booking-section {
+  position: relative;
+  background: url("/assets/bg_1.jpg") center center/cover no-repeat;
+  overflow: hidden;
+}
+
+.booking-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(34, 34, 34, 0.9);
+  z-index: 1;
+}
+
+.booking-section>* {
+  position: relative;
+  z-index: 2;
+}
+
+/* Main Card */
+.booking-room{
+    transition: all 0.3s ease;
+}
+
+/* Image */
+.booking-image{
+    position: relative;
+    overflow: hidden;
+}
+
+.booking-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+/* Image Overlay */
+.booking-image::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(34, 34, 34, 0.6);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+/* Hover Image Overlay */
+.booking-room:hover .booking-image::after{
+    opacity: 1;
+}
+
+/* Content */
+.booking-content{
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+/* Content Background */
+.booking-room:hover .booking-content{
+    background: #222222;
+}
+
+/* Heading */
+.booking-room:hover .booking-content h3{
+    color: #fff !important;
+}
+
+/* Paragraph */
+.booking-room:hover .booking-content p{
+    color: #fff !important;
+}
+
+
+
+/* Button */
+.booking-room:hover .booking-content a{
+    color: #fff !important;
+    border: 1px solid #fff !important;
+}
+
+/* اگر اور text بھی ہو */
+.booking-room:hover .booking-content *{
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+@media (max-width: 767px) {
+  .custom-navbar {
+    background-color: #000000 !important;
+  }
+
+  .hero-content {
+    padding: 210px 0px 100px 0px !important;
+  }
+
+  .hero,
+  h1 {
+    font-size: 40px !important;
+    font-weight: 400;
+  }
+
+  /* ===== about section ===== */
+  .about-section,
+  h1 {
+    font-size: 38px;
+    font-weight: 400;
+  }
+
+  .about-section,
+  h1 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+  }
+
+  .about-section,
+  button {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+  }
+
+
+  .service-shape {
+    width: 100%;
+    gap: 0px;
+    height: 200px;
+    border-radius: 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+
+
+  }
+
+  .services-section h2 {
+    font-size: 38px !important;
+    text-align: center !important;
+  }
+
+  .booking-section h1 {
+    font-size: 28px !important;
+  }
+
+
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .custom-navbar {
+    background-color: #000000 !important;
+  }
+
+  .hero-content {
+    padding: 210px 0px 100px 0px !important;
+  }
+
+  .hero,
+  h1 {
+    font-size: 60px !important;
+  }
+
+  .hero-content button {
+    padding: 10px 20px !important;
+    font-size: 10px;
+  }
+
+  .check-avail {
+    margin-top: 20px;
+  }
+
+  .services-section h2 {
+    font-size: 48px !important;
+    text-align: center !important;
+  }
+
+  .booking-section h1 {
+    font-size: 38px !important;
+  }
 }
