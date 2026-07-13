@@ -144,82 +144,154 @@ label {
 }
 
 /* Main Card */
-.booking-room{
-    transition: all 0.3s ease;
+.booking-room {
+  transition: all 0.3s ease;
 }
 
 /* Image */
-.booking-image{
-    position: relative;
-    overflow: hidden;
+.booking-image {
+  position: relative;
+  overflow: hidden;
 }
 
-.booking-image img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: all 0.3s ease;
+.booking-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
 }
 
 /* Image Overlay */
-.booking-image::after{
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(34, 34, 34, 0.6);
-    opacity: 0;
-    transition: all 0.3s ease;
+.booking-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(34, 34, 34, 0.6);
+  opacity: 0;
+  transition: all 0.3s ease;
 }
 
 /* Hover Image Overlay */
-.booking-room:hover .booking-image::after{
-    opacity: 1;
+.booking-room:hover .booking-image::after {
+  opacity: 1;
 }
 
 /* Content */
-.booking-content{
-    background: #fff;
-    transition: all 0.3s ease;
+.booking-content {
+  background: #fff;
+  transition: all 0.3s ease;
 }
 
 /* Content Background */
-.booking-room:hover .booking-content{
-    background: #222222;
+.booking-room:hover .booking-content {
+  background: #222222;
 }
 
 /* Heading */
-.booking-room:hover .booking-content h3{
-    color: #fff !important;
+.booking-room:hover .booking-content h3 {
+  color: #fff !important;
 }
 
 /* Paragraph */
-.booking-room:hover .booking-content p{
-    color: #fff !important;
+.booking-room:hover .booking-content p {
+  color: #fff !important;
 }
 
 
 
 /* Button */
-.booking-room:hover .booking-content a{
-    color: #fff !important;
-    border: 1px solid #fff !important;
+.booking-room:hover .booking-content a {
+  color: #fff !important;
+  border: 1px solid #fff !important;
 }
 
 /* اگر اور text بھی ہو */
-.booking-room:hover .booking-content *{
-    transition: all 0.3s ease;
+.booking-room:hover .booking-content * {
+  transition: all 0.3s ease;
+}
+
+
+
+/* tour section */
+.tour-section {
+  background-image: url("/assets/bg_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+
+}
+
+.tour-section::before {
+  content: "";
+  position: absolute;
+  inset: 10px;
+  background: rgba(10, 8, 5, 0.45);
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.tour-section>* {
+  position: relative;
+  z-index: 1;
+}
+
+.resto-and-bar .parent-image .child-image {}
+
+
+/* Menus Background */
+.parent-image {
+  background-image: url("/assets/resto-bar.jpg");
+  width: 98%;
+  min-height: 585px;
+  background-size: cover;
+  background-position: center center;
+
+}
+
+.parent-image::before {
+  content: "";
+  position: absolute;
+  inset: 10px;
+  background: rgba(10, 8, 5, 0.45);
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 
 
 
+.menus {
+  transition: all 0.3s ease;
 
 
+}
 
 
+.menus:hover {
+  background: #222222 !important;
+}
 
+/* Heading */
+.menus:hover h3 {
+  color: #fff !important;
+}
 
+.menus h3,
+.menus h6 {
+  transition: all 0.3s ease;
+}
 
+/* اگر اور text بھی ہو */
+.menus:hover .menus * {
+  transition: all 0.3s ease;
+}
 
 
 /* Mobile */
@@ -232,7 +304,11 @@ label {
     padding: 210px 0px 100px 0px !important;
   }
 
-  .hero,
+  .hero h1 {
+    font-size: 40px !important;
+    font-weight: 400;
+  }
+
   h1 {
     font-size: 40px !important;
     font-weight: 400;
@@ -259,6 +335,9 @@ label {
     line-height: 1.8;
   }
 
+  .menus-parent {
+    height: auto !important;
+  }
 
   .service-shape {
     width: 100%;
@@ -280,7 +359,45 @@ label {
     font-size: 28px !important;
   }
 
+  .resto-and-bar .parent-image {
 
+    width: 100% !important;
+    height: 50vh !important;
+  }
+
+  .resto-and-bar .parent-image .child-image {
+    left: 40% !important;
+    top: 45% !important;
+  }
+
+  .resto-and-bar .parent-image .child-image {
+    height: 25% !important;
+    width: 25% !important;
+  }
+
+  .menus {
+    padding: 10px 0px !important;
+  }
+
+  .menus img {
+    height: 80% !important;
+    width: 80% !important;
+    border-radius: 100% !important;
+  }
+
+  .menus h3 {
+    font-size: 14px !important;
+  }
+
+
+
+  .testimonial-card .quotes {
+    bottom: 26% !important;
+  }
+
+  .testimonial-card .h3 {
+    font-size: 18px;
+  }
 }
 
 /* Tablet */
@@ -315,4 +432,23 @@ label {
   .booking-section h1 {
     font-size: 38px !important;
   }
+
+
+
+  .resto-and-bar .parent-image {
+
+    width: 100% !important;
+
+  }
+
+  .resto-and-bar .parent-image .child-image {
+    left: 43% !important;
+    top: 43% !important;
+  }
+
+  .resto-and-bar .parent-image .child-image {
+    height: 20% !important;
+    width: 20% !important;
+  }
+
 }
