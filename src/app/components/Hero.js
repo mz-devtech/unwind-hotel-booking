@@ -22,7 +22,7 @@ const Hero = () => {
                 </div>
 
             </div>
-            <div style={{ transform: "translateY(-100px)", position: "relative", zIndex: 10 }} className='check-avail'>
+            <div style={{ }} className='check-avail'>
                 <CheckAvailbility />
 
             </div>

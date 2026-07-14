@@ -6,7 +6,7 @@ const About = () => {
     return (
         <>
             <div className="container-fluid " style={{ backgroundColor: "#f8f8f8" }}>
-                <div className="container about-section " style={{ padding: "150px 0px 50px 0px" }} >
+                <div className="container about-section " style={{ padding: "20px 0px 50px 0px" }} >
                     <div className="row">
                         <div className="col-12 col-lg-6">
                             <div className="row">
@@ -14,13 +14,13 @@ const About = () => {
                                     <div className="service-card d-flex flex-column">
 
                                         {/* Image */}
-                                        <div className="order-1 order-lg-2 " style={{height:"200px"}}>
+                                        <div className="order-1 order-lg-2 " style={{ height: "200px" }}>
                                             <Image
                                                 src="/assets/f-services.jpg"
                                                 alt="Room"
                                                 width={1400}
                                                 height={800}
-quality={100}
+                                                quality={100}
 
                                                 className="img-fluid w-100"
                                                 style={{ height: "100%" }}
@@ -38,7 +38,7 @@ quality={100}
                                                 width={70}
                                                 height={70}
                                                 className="img-fluid"
-quality={100}
+                                                quality={100}
 
                                             />
 
@@ -61,14 +61,14 @@ quality={100}
 
                                 <div className="col-12 col-lg-6">
                                     <div className="service-card">
-                                        <div style={{height:"200px"}}>
+                                        <div style={{ height: "200px" }}>
                                             <Image
                                                 src="/assets/f-services-2.jpg"
                                                 alt="Room"
                                                 width={1400}
                                                 height={800}
 
-quality={100}
+                                                quality={100}
 
                                                 className="img-fluid w-100"
                                                 style={{ height: "100%" }}
@@ -84,7 +84,7 @@ quality={100}
                                                 alt="Room"
                                                 width={70}
                                                 height={70}
-quality={100}
+                                                quality={100}
 
                                                 className="img-fluid"
                                             />

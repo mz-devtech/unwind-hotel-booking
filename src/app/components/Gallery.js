@@ -8,7 +8,7 @@ import { FaSearch } from "react-icons/fa";
 const Gallery = () => {
     return (
         <>
-            <div className="container-fluid py-5" style={{ backgroundColor: "#f8f8f8" }}>
+            <div className="container-fluid  pb-3" style={{ backgroundColor: "#f8f8f8" , padding:"150px 0px 0px 0px" }}>
                 <div className="row gap-2 mx-2 justify-content-md-center">
                     <div className="col-12  col-md-5 col-lg p-0">
                         <div className="position-relative overflow-hidden blog-card" style={{ height: "250px" }}>
