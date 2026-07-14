@@ -9,6 +9,8 @@ import RestoandBar from "./components/RestoandBar";
 import Testimonial from "./components/Testimonial";
 import Counter from "./components/Counter";
 import Blogs from "./components/Blogs";
+import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -24,6 +26,8 @@ export default function Home() {
       <Testimonial />
       <Counter />
       <Blogs/>
+      <Gallery/>
+      <Footer/>
 
     </>
   );

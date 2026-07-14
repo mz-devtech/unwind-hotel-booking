@@ -293,6 +293,39 @@ label {
   transition: all 0.3s ease;
 }
 
+.blog-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.blog-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 8, 5, 0.45);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.blog-card:hover::before {
+  opacity: 1;
+}
+
+.search-icon {
+  z-index: 2; /* overlay se upar */
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.blog-card:hover .search-icon {
+  opacity: 1;
+}
+
+.blog-card img {
+  display: block;
+  width: 100%;
+}
 
 /* Mobile */
 @media (max-width: 767px) {
