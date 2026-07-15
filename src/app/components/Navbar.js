@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from 'react'
 
 const Navbar = () => {
@@ -7,15 +8,15 @@ const Navbar = () => {
                 <div className="container">
 
                     {/* Logo */}
-                    <a className="navbar-brand mb-0" href="#">
-                        <h3 className="fw-bold text-white mb-0" style={{ color: "#ffffff", lineHeight:"1.1",fieldSizing:"30px", }}>Unwind</h3>
+                    <Link className="navbar-brand mb-0" href="/">
+                        <h3 className="fw-bold text-white mb-0" style={{ color: "#ffffff", lineHeight: "1.1", fieldSizing: "30px" }}>Unwind</h3>
                         <p
                             className="text-uppercase fw-bold mb-0"
                             style={{ letterSpacing: "1px", fontSize: "12px", color: "#ffffff" }}
                         >
                             Hotel Booking
                         </p>
-                    </a>
+                    </Link>
 
                     {/* Toggle Button */}
                     <button
@@ -35,50 +36,40 @@ const Navbar = () => {
                         <ul className="navbar-nav ms-auto align-items-lg-center gap-lg-4">
 
                             <li className="nav-item">
-                                <a className="nav-link fw-bold text-uppercase" style={{ color: "#fff", fontSize: "13px" }} href="#">
+                                <Link className="nav-link fw-bold text-uppercase" style={{ color: "#fff", fontSize: "13px" }} href="/">
                                     Home
-                                </a>
+                                </Link>
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link fw-bold text-uppercase" style={{ color: "#ffffffb3", fontSize: "13px" }} href="#">
+                                <Link className="nav-link fw-bold text-uppercase" style={{ color: "#ffffffb3", fontSize: "13px" }} href="/about">
                                     About
-                                </a>
+                                </Link>
                             </li>
 
-
                             <li className="nav-item">
-                                <a className="nav-link fw-bold text-uppercase" style={{ color: "#ffffffb3", fontSize: "13px" }} href="#">
+                                <Link className="nav-link fw-bold text-uppercase" style={{ color: "#ffffffb3", fontSize: "13px" }} href="/rooms">
                                     Rooms
-                                </a>
+                                </Link>
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link fw-bold text-uppercase" style={{ color: "#ffffffb3", fontSize: "13px" }} href="#">
+                                <Link className="nav-link fw-bold text-uppercase" style={{ color: "#ffffffb3", fontSize: "13px" }} href="/resto-bar">
                                     Resto &amp; Bar
-                                </a>
+                                </Link>
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link fw-bold text-uppercase" style={{ color: "#ffffffb3", fontSize: "13px" }} href="#">
+                                <Link className="nav-link fw-bold text-uppercase" style={{ color: "#ffffffb3", fontSize: "13px" }} href="/blog">
                                     Blog
-                                </a>
+                                </Link>
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link fw-bold text-uppercase" style={{ color: "#ffffffb3", fontSize: "13px" }} href="#">
+                                <Link className="nav-link fw-bold text-uppercase" style={{ color: "#ffffffb3", fontSize: "13px" }} href="/contact">
                                     Contact
-
-                                </a>
+                                </Link>
                             </li>
-
-
-
-
-
-
-
-
 
                         </ul>
                     </div>

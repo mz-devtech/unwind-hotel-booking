@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="container-fluid" style={{ backgroundColor: "#1a1a1a", padding: "120px 0px" }}>
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 col-md-6 col-lg p-0 m-0">
+                        <div className="col-12 col-md-6 col-lg p- m-0">
                             <div>
                                 <span className='mb-0 lh-1 fs-5 fw-bold' style={{ color: "#fff" }}>
                                     Unwind <br />
@@ -36,7 +36,7 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <div className="col-12 col-md-6 col-lg p-0 m-0">
+                        <div className="col-12 col-md-6 col-lg p- m-0">
                             <div>
                                 <h2 className='fw-bold fs-5 ' style={{ color: "#fff" }}> Services</h2>
                                 <ul className='list-unstyled mt-5'>
@@ -49,7 +49,7 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <div className="col-12 col-md-6 col-lg p-0 m-0">
+                        <div className="col-12 col-md-6 col-lg p- m-0">
                             <div>
                                 <h2 className='fw-bold fs-5 ' style={{ color: "#fff", visibility: "hidden" }}> Services</h2>
 
@@ -63,7 +63,7 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <div className="col-12 col-md-6 col-lg p-0 m-0">
+                        <div className="col-12 col-md-6 col-lg p- m-0">
                             <div>
                                 <h2 className='fw-bold fs-5' style={{ color: "#fff" }}>Quick Links</h2>
                                 <ul className='list-unstyled mt-5'>
@@ -77,7 +77,7 @@ const Footer = () => {
                         </div>
 
 
-                        <div className="col-12 col-md-6 col-lg p-0 m-0">
+                        <div className="col-12 col-md-6 col-lg p- m-0">
                             <div>
                                 <h2 className='fw-bold fs-5 ' style={{ color: "#fff" }}>Have a Question</h2>
                                 <ul className='list-unstyled mt-5'>

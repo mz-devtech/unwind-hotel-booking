@@ -41,7 +41,13 @@ li {
 
 }
 
+.custom-navbar .navbar-toggler {
+  border-color: white;
+}
 
+.custom-navbar .navbar-toggler-icon {
+  filter: invert(2);
+}
 
 .custom-navbar {
   background-color: transparent !important;
@@ -276,48 +282,48 @@ label {
 }
 
 .play-btn {
-    position: relative;
-    width: 80px;
-    height: 80px;
-    background: #c5a880;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    z-index: 1;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background: #c5a880;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1;
 }
 
 .play-btn::before,
 .play-btn::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: 50%;
-    background: rgba(197, 168, 128, 0.5);
-    animation: ripple 2s infinite;
-    z-index: -1;
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: rgba(197, 168, 128, 0.5);
+  animation: ripple 2s infinite;
+  z-index: -1;
 }
 
 .play-btn::after {
-    animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 @keyframes ripple {
-    0% {
-        transform: scale(1);
-        opacity: .7;
-    }
+  0% {
+    transform: scale(1);
+    opacity: .7;
+  }
 
-    70% {
-        transform: scale(1.8);
-        opacity: 0;
-    }
+  70% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
 
-    100% {
-        transform: scale(1.8);
-        opacity: 0;
-    }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
 }
 
 
@@ -406,6 +412,72 @@ label {
   display: block;
   width: 100%;
 }
+
+
+
+/* ===== About Page css ===== */
+
+.about-page,
+.room-page,
+.resto-page,
+.blog-page,
+.contact-page {
+  height: 100vh;
+  position: relative;
+  background: url("/assets/bg_3.jpg") center center/cover no-repeat;
+  background-attachment: fixed;
+}
+
+.about-page::before,
+.room-page::before,
+.resto-page::before,
+.blog-page::before,
+.contact-page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(34, 34, 34, 0.5);
+}
+
+.about-content,
+.room-content,
+.resto-content,
+.blog-content,
+.contact-content {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.pagination-box {
+  transition: all 0.3s ease;
+  background-color: red;
+
+}
+
+.pagination-box:hover {
+  background-color: green !important;
+  color: #fff;
+  transition: all 0.3s ease;
+   transform: scale(1.1);
+}
+
+.test-box {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+.test-box:hover {
+  background: green;
+}
+
+
 
 /* Mobile */
 @media (max-width: 767px) {

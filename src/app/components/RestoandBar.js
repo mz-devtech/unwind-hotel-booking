@@ -31,15 +31,23 @@ const RestoandBar = () => {
                                     zIndex: 999,
                                 }}
                             >
-                                <img
-                                    src="/assets/ChatGPT_Image_Jul_10__2026__09_22_46_AM-removebg-preview.png"
-                                    alt=""
+                                <div
                                     style={{
+                                        position: "relative",
                                         width: "100%",
                                         height: "100%",
-                                        objectFit: "contain",
                                     }}
-                                />
+                                >
+                                    <Image
+                                        src="/assets/ChatGPT_Image_Jul_10__2026__09_22_46_AM-removebg-preview.png"
+                                        alt="Restaurant Logo"
+                                        fill
+                                        sizes="100px"
+                                        style={{
+                                            objectFit: "contain",
+                                        }}
+                                    />
+                                </div>
                             </div>
                         </div>
 
