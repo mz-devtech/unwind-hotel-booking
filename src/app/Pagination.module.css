@@ -1,0 +1,10 @@
+.paginationBox {
+  transition: all 0.3s ease;
+}
+
+.paginationBox:hover {
+  background-color: #c5a880;
+  box-shadow: 0 4px 15px rgba(197, 168, 128, 0.5);
+  color: #fff !important;
+  transform: scale(1.1);
+}

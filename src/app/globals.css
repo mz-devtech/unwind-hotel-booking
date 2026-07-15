@@ -454,28 +454,8 @@ label {
 }
 
 
-.pagination-box {
-  transition: all 0.3s ease;
-  background-color: red;
 
-}
 
-.pagination-box:hover {
-  background-color: green !important;
-  color: #fff;
-  transition: all 0.3s ease;
-   transform: scale(1.1);
-}
-
-.test-box {
-  width: 100px;
-  height: 100px;
-  background: red;
-}
-
-.test-box:hover {
-  background: green;
-}
 
 
 

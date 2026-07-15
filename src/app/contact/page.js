@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import { FaGreaterThan } from "react-icons/fa";
+import Footer from '../components/Footer';
+import Contact from '../components/Contact';
 
 
 const page = () => {
@@ -19,6 +21,10 @@ const page = () => {
                     </h1>
                 </div>
             </div>
+            <Contact />
+
+            <Footer />
+
 
         </>
     )
