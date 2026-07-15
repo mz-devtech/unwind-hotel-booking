@@ -1,23 +1,18 @@
-
-
-
-import { Geist, Geist_Mono } from "next/font/google";
+import { Nunito, Old_Standard_TT } from "next/font/google";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./globals.css";
 import BootstrapProvider from "./components/BootstrapProvider";
 
-
-
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const nunito = Nunito({
   subsets: ["latin"],
+  weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-nunito",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const oldStandard = Old_Standard_TT({
   subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-old-standard",
 });
 
 export const metadata = {
@@ -29,11 +24,12 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${nunito.variable} ${oldStandard.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <BootstrapProvider />
-        {children}</body>
+        {children}
+      </body>
     </html>
   );
 }

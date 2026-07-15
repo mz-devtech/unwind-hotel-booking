@@ -28,7 +28,7 @@ const OurRooms = () => {
 
                                 {/* Content */}
                                 <div
-                                    className="booking-content p-4 text-center order-2 order-lg-1"
+                                    className="booking-content p-5 text-center order-2 order-lg-1"
                                     style={{ boxShadow: "0px 5px 25px -2px rgba(0, 0, 0, 0.06)" }}
                                 >
 
@@ -39,7 +39,7 @@ const OurRooms = () => {
 
                                     <p
                                         className="service-text"
-                                        style={{ color: "#999999", textAlign: "justify" }}
+                                        style={{ color: "#999999", textAlign: "center",lineHeight:"35px" }}
                                     >
                                         Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
                                     </p>
@@ -69,7 +69,7 @@ const OurRooms = () => {
 
                                 {/* Content */}
                                 <div
-                                    className="booking-content p-4 text-center order-2 order-lg-1"
+                                    className="booking-content p-5 text-center order-2 order-lg-1"
                                     style={{ boxShadow: "0px 5px 25px -2px rgba(0, 0, 0, 0.06)" }}
                                 >
 
@@ -80,7 +80,7 @@ const OurRooms = () => {
 
                                     <p
                                         className="service-text"
-                                        style={{ color: "#999999", textAlign: "justify" }}
+                                        style={{ color: "#999999", textAlign: "center",lineHeight:"35px" }}
                                     >
                                         Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
                                     </p>
@@ -110,7 +110,7 @@ const OurRooms = () => {
 
                                 {/* Content */}
                                 <div
-                                    className="booking-content p-4 text-center order-2 order-lg-1"
+                                    className="booking-content p-5 text-center order-2 order-lg-1"
                                     style={{ boxShadow: "0px 5px 25px -2px rgba(0, 0, 0, 0.06)" }}
                                 >
 
@@ -121,7 +121,7 @@ const OurRooms = () => {
 
                                     <p
                                         className="service-text"
-                                        style={{ color: "#999999", textAlign: "justify" }}
+                                        style={{ color: "#999999", textAlign: "center",lineHeight:"35px" }}
                                     >
                                         Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
                                     </p>

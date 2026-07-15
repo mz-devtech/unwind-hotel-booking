@@ -79,7 +79,7 @@ const RestoandBar = () => {
                                         style={{
                                             fontSize: "22px",
                                             fontWeight: "500",
-                                            color: "#222222",
+                                            color: "#333333",
                                             lineHeight: "1.4",
                                         }}
                                     >
@@ -133,7 +133,7 @@ const RestoandBar = () => {
                                         style={{
                                             fontSize: "22px",
                                             fontWeight: "500",
-                                            color: "#222222",
+                                            color: "#333333",
                                             lineHeight: "1.4",
                                         }}
                                     >
@@ -187,7 +187,7 @@ const RestoandBar = () => {
                                         style={{
                                             fontSize: "22px",
                                             fontWeight: "500",
-                                            color: "#222222",
+                                            color: "#333333",
                                             lineHeight: "1.4",
                                         }}
                                     >
@@ -241,7 +241,7 @@ const RestoandBar = () => {
                                         style={{
                                             fontSize: "22px",
                                             fontWeight: "500",
-                                            color: "#222222",
+                                            color: "#333333",
                                             lineHeight: "1.4",
                                         }}
                                     >
@@ -295,7 +295,7 @@ const RestoandBar = () => {
                                         style={{
                                             fontSize: "22px",
                                             fontWeight: "500",
-                                            color: "#222222",
+                                            color: "#333333",
                                             lineHeight: "1.4",
                                         }}
                                     >
@@ -349,7 +349,7 @@ const RestoandBar = () => {
                                         style={{
                                             fontSize: "22px",
                                             fontWeight: "500",
-                                            color: "#222222",
+                                            color: "#333333",
                                             lineHeight: "1.4",
                                         }}
                                     >
@@ -403,7 +403,7 @@ const RestoandBar = () => {
                                         style={{
                                             fontSize: "22px",
                                             fontWeight: "500",
-                                            color: "#222222",
+                                            color: "#333333",
                                             lineHeight: "1.4",
                                         }}
                                     >
@@ -457,7 +457,7 @@ const RestoandBar = () => {
                                         style={{
                                             fontSize: "22px",
                                             fontWeight: "500",
-                                            color: "#222222",
+                                            color: "#333333",
                                             lineHeight: "1.4",
                                         }}
                                     >

@@ -12,7 +12,7 @@ const Testimonial = () => {
                         <h1 className='fw-light text-center text-uppercase mb-5' style={{ fontSize: "64px", lineHeight: "1.4" }}>Happy Guests</h1>
 
                         <div className="col-12 col-md-6 col-lg-4">
-                            <div className="testimonial-card p-4 rounded-2" style={{ backgroundColor: "white" }}>
+                            <div className="testimonial-card px-4 py-5 rounded-2" style={{ backgroundColor: "white" }}>
                                 <div className="d-flex align-items-center gap-3 position-relative">
                                     <div>
                                         <img style={{ height: "80px", width: "80px", borderRadius: "50%" }} src="/assets/person_2.jpg" alt="" />
@@ -42,14 +42,14 @@ const Testimonial = () => {
                                     </div>
 
                                 </div>
-                                <p className='mb-0 mt-3 lead' style={{ textAlign: "justify" }}>
+                                <p className='mb-0 mt-3 ' style={{ textAlign: "justify", color: "#333333", lineHeight: "30px", fontSize: "18px" }}>
                                     Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
                                 </p>
                             </div>
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-4">
-                            <div className="testimonial-card p-4 rounded-2" style={{ backgroundColor: "white" }}>
+                            <div className="testimonial-card px-4 py-5 rounded-2" style={{ backgroundColor: "white" }}>
                                 <div className="d-flex align-items-center gap-3 position-relative">
                                     <div>
                                         <img style={{ height: "80px", width: "80px", borderRadius: "50%" }} src="/assets/person_1.jpg" alt="" />
@@ -79,14 +79,14 @@ const Testimonial = () => {
                                     </div>
 
                                 </div>
-                                <p className='mb-0 mt-3 lead' style={{ textAlign: "justify" }}>
+                                <p className='mb-0 mt-3 ' style={{ textAlign: "justify", color: "#333333", lineHeight: "30px", fontSize: "18px" }}>
                                     Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
                                 </p>
                             </div>
                         </div>
 
                         <div className="col-12 col-md-6 col-lg-4">
-                            <div className="testimonial-card p-4 rounded-2" style={{ backgroundColor: "white" }}>
+                            <div className="testimonial-card px-4 py-5 rounded-2" style={{ backgroundColor: "white" }}>
                                 <div className="d-flex align-items-center gap-3 position-relative">
                                     <div>
                                         <img style={{ height: "80px", width: "80px", borderRadius: "50%" }} src="/assets/person_2.jpg" alt="" />
@@ -116,7 +116,7 @@ const Testimonial = () => {
                                     </div>
 
                                 </div>
-                                <p className='mb-0 mt-3 lead' style={{ textAlign: "justify" }}>
+                                <p className='mb-0 mt-3 ' style={{ textAlign: "justify", color: "#333333", lineHeight: "30px", fontSize: "18px" }}>
                                     Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
                                 </p>
                             </div>

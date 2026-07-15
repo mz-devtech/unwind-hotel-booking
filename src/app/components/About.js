@@ -48,7 +48,7 @@ const About = () => {
 
                                             <p
                                                 className="service-text"
-                                                style={{ color: "#999999" }}
+                                                style={{ color: "#999999",lineHeight:"35px" }}
                                             >
                                                 Far far away, behind the word mountains, far from the countries
                                                 Vokalia.
@@ -93,7 +93,7 @@ const About = () => {
                                                 Cozy Room
                                             </h3>
 
-                                            <p className="service-text " style={{ color: "#999999" }}>
+                                            <p className="service-text " style={{ color: "#999999",lineHeight:"35px" }}>
                                                 Far far away, behind the word mountains, far from the countries
                                                 Vokalia.
                                             </p>
@@ -109,7 +109,7 @@ const About = () => {
                             <div>
                                 <h6 className='text-uppercase fw-bold' style={{ fontSize: "13px", color: "#c5a880", letterSpacing: "2px" }}>About Us</h6>
                                 <h1 className='fw-normal' style={{ fontSize: "64px", lineHeight: "1.4" }}>Unwind A Hotel Booking Agency</h1>
-                                <p className='' style={{ color: "#999999", }}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                <p className='' style={{ color: "#999999",lineHeight:"35px" }}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                                 <button className='rounded-0 text-uppercase py-3 px-4  fw-semibold' style={{ border: "1px solid #c5a880", backgroundColor: "#c5a880", color: "#fff" }}>Book Your Room Now</button>
 
 
