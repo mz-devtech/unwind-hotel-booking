@@ -22,8 +22,8 @@ const page = () => {
                 </div>
             </div>
 
-           
-<RestoandBar/>
+
+            <RestoandBar />
 
 
             <Footer />
