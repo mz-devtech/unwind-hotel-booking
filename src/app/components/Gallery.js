@@ -11,7 +11,7 @@ const Gallery = () => {
             >
                 <div className="row gap-2 mx-2 justify-content-md-center">
 
-                    <div className="col-12 col-md-5 col-lg p-0">
+                    <div className="col-12 col-md-5 col-lg p-0" data-aos="fade-up">
                         <div
                             className="position-relative overflow-hidden blog-card"
                             style={{ height: "250px" }}
@@ -45,7 +45,7 @@ const Gallery = () => {
                         </div>
                     </div>
 
-                    <div className="col-12 col-md-5 col-lg p-0">
+                    <div className="col-12 col-md-5 col-lg p-0" data-aos="fade-up">
                         <div
                             className="position-relative overflow-hidden blog-card"
                             style={{ height: "250px" }}
@@ -79,7 +79,7 @@ const Gallery = () => {
                         </div>
                     </div>
 
-                    <div className="col-12 col-md-5 col-lg p-0">
+                    <div className="col-12 col-md-5 col-lg p-0" data-aos="fade-up">
                         <div
                             className="position-relative overflow-hidden blog-card"
                             style={{ height: "250px" }}
@@ -113,7 +113,7 @@ const Gallery = () => {
                         </div>
                     </div>
 
-                    <div className="col-12 col-md-5 col-lg p-0">
+                    <div className="col-12 col-md-5 col-lg p-0" data-aos="fade-up">
                         <div
                             className="position-relative overflow-hidden blog-card"
                             style={{ height: "250px" }}
@@ -147,7 +147,7 @@ const Gallery = () => {
                         </div>
                     </div>
 
-                    <div className="col-12 col-md-5 col-lg p-0">
+                    <div className="col-12 col-md-5 col-lg p-0" data-aos="fade-up">
                         <div
                             className="position-relative overflow-hidden blog-card"
                             style={{ height: "250px" }}

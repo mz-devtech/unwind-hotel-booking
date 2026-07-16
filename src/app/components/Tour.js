@@ -10,10 +10,10 @@ const Tour = () => {
                 <div className="container">
                     <div className="row">
                         <div className="d-flex justify-content-center align-items-center flex-column">
-                            <p className='fw-bold text-uppercase text-center mb-0' style={{ fontSize: "13px", letterSpacing: "2px", color: "#ffffff" }}>Watch our luxurious hotel</p>
-                            <h1 className='fw-normal text-center text-uppercase mb-0' style={{ fontSize: "64px", lineHeight: "1.4", color: "#ffffff" }}>Take A Tour</h1>
+                            <p className='fw-bold text-uppercase text-center mb-0' data-aos="fade-up" style={{ fontSize: "13px", letterSpacing: "2px", color: "#ffffff" }}>Watch our luxurious hotel</p>
+                            <h1 className='fw-normal text-center text-uppercase mb-0' data-aos="fade-up" style={{ fontSize: "64px", lineHeight: "1.4", color: "#ffffff" }}>Take A Tour</h1>
                             <div
-                                className="d-flex justify-content-center align-items-center rounded-circle mx-auto play-btn"
+                                className="d-flex justify-content-center align-items-center rounded-circle mx-auto play-btn" data-aos="fade-up"
                                 style={{
                                     width: "80px",
                                     height: "80px",

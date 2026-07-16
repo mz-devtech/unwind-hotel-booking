@@ -6,7 +6,7 @@ const Pagination = () => {
     return (
         <>
             <div className="container-fluid py-5" style={{ backgroundColor: "#f8f8f8" }}>
-                <div className="row">
+                <div className="row" data-aos="fade-up">
                     <div className="col d-flex align-items-center justify-content-center gap-3">
                         <div className={`${styles.paginationBox} d-flex align-items-center justify-content-center p-2 rounded-1`} style={{ height: "50px", width: "50px", border: "1px solid #e6e6e6" }}><FaChevronLeft size={24} /></div>
 

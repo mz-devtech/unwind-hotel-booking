@@ -9,21 +9,21 @@ const Blogs = () => {
                     <div className="row gap-4">
 
                         <p
-                            className="fw-bold text-uppercase text-center mb-0"
+                            className="fw-bold text-uppercase text-center mb-0" data-aos="fade-up"
                             style={{ fontSize: "13px", letterSpacing: "2px", color: "#c5a880" }}
                         >
                             Our Blog
                         </p>
 
                         <h1
-                            className="fw-light text-center text-uppercase mb-5"
+                            className="fw-light text-center text-uppercase mb-5" data-aos="fade-up"
                             style={{ fontSize: "64px", lineHeight: "1.4" }}
                         >
                             Recent Blog
                         </h1>
 
                         <div
-                            className="col p-0 rounded-2"
+                            className="col p-0 rounded-2" data-aos="fade-up"
                             style={{
                                 backgroundColor: "white",
                                 boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
@@ -66,7 +66,7 @@ const Blogs = () => {
                         </div>
 
                         <div
-                            className="col p-0 rounded-2"
+                            className="col p-0 rounded-2" data-aos="fade-up"
                             style={{
                                 backgroundColor: "white",
                                 boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
@@ -109,7 +109,7 @@ const Blogs = () => {
                         </div>
 
                         <div
-                            className="col p-0 rounded-2"
+                            className="col p-0 rounded-2" data-aos="fade-up"
                             style={{
                                 backgroundColor: "white",
                                 boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
@@ -152,7 +152,7 @@ const Blogs = () => {
                         </div>
 
                         <div
-                            className="col p-0 rounded-2"
+                            className="col p-0 rounded-2" data-aos="fade-up"
                             style={{
                                 backgroundColor: "white",
                                 boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",

@@ -9,7 +9,7 @@ const About = () => {
                     <div className="row">
                         <div className="col-12 col-lg-6">
                             <div className="row">
-                                <div className="col-12 col-lg-6">
+                                <div className="col-12 col-lg-6" data-aos="fade-up">
                                     <div className="service-card d-flex flex-column">
 
                                         {/* Image */}
@@ -62,7 +62,7 @@ const About = () => {
                                     </div>
                                 </div>
 
-                                <div className="col-12 col-lg-6">
+                                <div className="col-12 col-lg-6" data-aos="fade-up">
                                     <div className="service-card">
 
                                         <div
@@ -114,7 +114,7 @@ const About = () => {
                             </div>
                         </div>
 
-                        <div className="col-12 col-lg-6">
+                        <div className="col-12 col-lg-6" data-aos="fade-up">
                             <div>
                                 <h6
                                     className="text-uppercase fw-bold mt-3"

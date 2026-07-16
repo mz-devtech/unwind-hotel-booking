@@ -6,8 +6,8 @@ const RestoandBar = () => {
         <>
             <div className="container-fluid py-5 resto-and-bar" style={{ backgroundColor: "#f8f8f8" }}>
                 <div className="row ">
-                    <p className='fw-bold text-uppercase text-center mb-0' style={{ fontSize: "13px", letterSpacing: "2px", color: "#c5a880" }}>Resto & Bar</p>
-                    <h1 className='fw-light text-center text-uppercase mb-5' style={{ fontSize: "64px", lineHeight: "1.4" }}>Restaurant & Bar</h1>
+                    <p className='fw-bold text-uppercase text-center mb-0' data-aos="fade-up" style={{ fontSize: "13px", letterSpacing: "2px", color: "#c5a880" }}>Resto & Bar</p>
+                    <h1 className='fw-light text-center text-uppercase mb-5' data-aos="fade-up" style={{ fontSize: "64px", lineHeight: "1.4" }}>Restaurant & Bar</h1>
 
                     <div className="col-12 col-lg-5">
                         <div className="position-relative parent-image">
@@ -54,7 +54,7 @@ const RestoandBar = () => {
                     </div>
                     <div className="col-12 col-lg-7 menus-parent">
                         <div className="row  g-2">
-                            <div className="col-12 col-md-6 col-lg-6">
+                            <div className="col-12 col-md-6 col-lg-6" data-aos="fade-up">
                                 <div
                                     className="d-flex align-items-center gap-3 px-4 py-3 py-md-4 py-lg-4 menus"
                                     style={{ backgroundColor: "#fff" }}
@@ -108,7 +108,7 @@ const RestoandBar = () => {
                                     </h6>
                                 </div>
                             </div>
-                            <div className="col-12 col-md-6 col-lg-6">
+                            <div className="col-12 col-md-6 col-lg-6" data-aos="fade-up">
                                 <div
                                     className="d-flex align-items-center gap-3 px-4 py-3 py-md-4 py-lg-4 menus"
                                     style={{ backgroundColor: "#fff" }}
@@ -162,7 +162,7 @@ const RestoandBar = () => {
                                     </h6>
                                 </div>
                             </div>
-                            <div className="col-12 col-md-6 col-lg-6">
+                            <div className="col-12 col-md-6 col-lg-6" data-aos="fade-up">
                                 <div
                                     className="d-flex align-items-center gap-3 px-4 py-3 py-md-4 py-lg-4 menus"
                                     style={{ backgroundColor: "#fff" }}
@@ -216,7 +216,7 @@ const RestoandBar = () => {
                                     </h6>
                                 </div>
                             </div>
-                            <div className="col-12 col-md-6 col-lg-6">
+                            <div className="col-12 col-md-6 col-lg-6" data-aos="fade-up">
                                 <div
                                     className="d-flex align-items-center gap-3 px-4 py-3 py-md-4 py-lg-4 menus"
                                     style={{ backgroundColor: "#fff" }}
@@ -270,7 +270,7 @@ const RestoandBar = () => {
                                     </h6>
                                 </div>
                             </div>
-                            <div className="col-12 col-md-6 col-lg-6">
+                            <div className="col-12 col-md-6 col-lg-6" data-aos="fade-up">
                                 <div
                                     className="d-flex align-items-center gap-3 px-4 py-3 py-md-4 py-lg-4 menus"
                                     style={{ backgroundColor: "#fff" }}
@@ -324,7 +324,7 @@ const RestoandBar = () => {
                                     </h6>
                                 </div>
                             </div>
-                            <div className="col-12 col-md-6 col-lg-6">
+                            <div className="col-12 col-md-6 col-lg-6" data-aos="fade-up">
                                 <div
                                     className="d-flex align-items-center gap-3 px-4 py-3 py-md-4 py-lg-4 menus"
                                     style={{ backgroundColor: "#fff" }}
@@ -378,7 +378,7 @@ const RestoandBar = () => {
                                     </h6>
                                 </div>
                             </div>
-                            <div className="col-12 col-md-6 col-lg-6">
+                            <div className="col-12 col-md-6 col-lg-6" data-aos="fade-up">
                                 <div
                                     className="d-flex align-items-center gap-3 px-4 py-3 py-md-4 py-lg-4 menus"
                                     style={{ backgroundColor: "#fff" }}
@@ -432,7 +432,7 @@ const RestoandBar = () => {
                                     </h6>
                                 </div>
                             </div>
-                            <div className="col-12 col-md-6 col-lg-6">
+                            <div className="col-12 col-md-6 col-lg-6" data-aos="fade-up">
                                 <div
                                     className="d-flex align-items-center gap-3 px-4 py-3 py-md-4 py-lg-4 menus"
                                     style={{ backgroundColor: "#fff" }}

@@ -9,20 +9,20 @@ const Testimonial = () => {
                 <div className="container">
                     <div className="row g-3">
                         <p
-                            className="fw-bold text-uppercase text-center mb-0"
+                            className="fw-bold text-uppercase text-center mb-0" data-aos="fade-up"
                             style={{ fontSize: "13px", letterSpacing: "2px", color: "#c5a880" }}
                         >
                             Testimonial
                         </p>
 
                         <h1
-                            className="fw-light text-center text-uppercase mb-5"
+                            className="fw-light text-center text-uppercase mb-5" data-aos="fade-up"
                             style={{ fontSize: "64px", lineHeight: "1.4" }}
                         >
                             Happy Guests
                         </h1>
 
-                        <div className="col-12 col-md-6 col-lg-4">
+                        <div className="col-12 col-md-6 col-lg-4" data-aos="fade-up">
                             <div
                                 className="testimonial-card px-4 py-5 rounded-2"
                                 style={{ backgroundColor: "white" }}
@@ -94,7 +94,7 @@ const Testimonial = () => {
                             </div>
                         </div>
 
-                        <div className="col-12 col-md-6 col-lg-4">
+                        <div className="col-12 col-md-6 col-lg-4" data-aos="fade-up">
                             <div
                                 className="testimonial-card px-4 py-5 rounded-2"
                                 style={{ backgroundColor: "white" }}
@@ -166,7 +166,7 @@ const Testimonial = () => {
                             </div>
                         </div>
 
-                        <div className="col-12 col-md-6 col-lg-4">
+                        <div className="col-12 col-md-6 col-lg-4" data-aos="fade-up">
                             <div
                                 className="testimonial-card px-4 py-5 rounded-2"
                                 style={{ backgroundColor: "white" }}

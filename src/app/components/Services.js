@@ -6,9 +6,9 @@ const Services = () => {
         <>
             <div className="container-fluid py-5" style={{ backgroundColor: "#f8f8f8" }}>
                 <div className="container services-section">
-                    <div className="row align-content-center gx-3 gy-0">
+                    <div className="row align-content-center gx-3 gy-0" data-aos="fade-up">
                         <p
-                            className="fw-bold text-uppercase text-center mb-0"
+                            className="fw-bold text-uppercase text-center mb-0 " data-aos="fade-up"
                             style={{
                                 fontSize: "13px",
                                 letterSpacing: "2px",
@@ -19,7 +19,7 @@ const Services = () => {
                         </p>
 
                         <h1
-                            className="fw-light text-center text-uppercase mb-4"
+                            className="fw-light text-center text-uppercase mb-4" data-aos="fade-up"
                             style={{ fontSize: "64px", lineHeight: "1.4" }}
                         >
                             Explore Our Hotel <br className="d-none d-md-block" />

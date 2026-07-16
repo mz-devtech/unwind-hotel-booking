@@ -2,6 +2,7 @@ import { Nunito, Old_Standard_TT } from "next/font/google";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import BootstrapProvider from "./components/BootstrapProvider";
+import AOSProvider from "./components/AOSProvider";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -28,7 +29,10 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col">
         <BootstrapProvider />
-        {children}
+        <AOSProvider>
+          {children}
+
+        </AOSProvider>
       </body>
     </html>
   );

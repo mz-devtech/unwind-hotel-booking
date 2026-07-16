@@ -18,7 +18,7 @@ const page = () => {
                         Home <FaGreaterThan color="#eae9e6" size={14} /> Rooms <FaGreaterThan color="#eae9e6" size={14} />
                     </p>
 
-                    <h1 style={{ color: "white", fontSize: "80px" }}>
+                    <h1 style={{ color: "white", fontSize: "80px" }} >
                         Cozzy Rooms
                     </h1>
                 </div>
@@ -26,10 +26,10 @@ const page = () => {
             <div className="container-fluid py-5" style={{ backgroundColor: "#f8f8f8" }}>
                 <div className="container py-5">
                     <div className="row gx-3 gy-3">
-                        <p className='fw-bold text-uppercase text-center mb-0' style={{ fontSize: "13px", letterSpacing: "2px", color: "#c5a880" }}>Our Rooms</p>
-                        <h1 className='fw-light text-center text-uppercase mb-5' style={{ fontSize: "64px", lineHeight: "1.4" }}>Featured Rooms</h1>
+                        <p className='fw-bold text-uppercase text-center mb-0' data-aos="fade-up" style={{ fontSize: "13px", letterSpacing: "2px", color: "#c5a880" }}>Our Rooms</p>
+                        <h1 className='fw-light text-center text-uppercase mb-5' data-aos="fade-up" style={{ fontSize: "64px", lineHeight: "1.4" }}>Featured Rooms</h1>
 
-                        <div className="col-12 col-md-6 col-lg-4">
+                        <div className="col-12 col-md-6 col-lg-4" data-aos="flip-left" >
                             <div className="booking-room d-flex flex-column">
 
                                 {/* Image */}
@@ -70,7 +70,7 @@ const page = () => {
 
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-4">
+                        <div className="col-12 col-md-6 col-lg-4" data-aos="flip-left">
                             <div className="booking-room d-flex flex-column">
 
                                 {/* Image */}
@@ -111,7 +111,7 @@ const page = () => {
 
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-4">
+                        <div className="col-12 col-md-6 col-lg-4" data-aos="flip-left">
                             <div className="booking-room d-flex flex-column">
 
                                 {/* Image */}
@@ -156,7 +156,7 @@ const page = () => {
                     <div className="row mt-3 gx-3 gy-3">
 
 
-                        <div className="col-12 col-md-6 col-lg-4">
+                        <div className="col-12 col-md-6 col-lg-4" data-aos="flip-left">
                             <div className="booking-room d-flex flex-column">
 
                                 {/* Image */}
@@ -197,7 +197,7 @@ const page = () => {
 
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-4">
+                        <div className="col-12 col-md-6 col-lg-4" data-aos="flip-left">
                             <div className="booking-room d-flex flex-column">
 
                                 {/* Image */}
@@ -238,7 +238,7 @@ const page = () => {
 
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-4">
+                        <div className="col-12 col-md-6 col-lg-4" data-aos="flip-left">
                             <div className="booking-room d-flex flex-column">
 
                                 {/* Image */}
