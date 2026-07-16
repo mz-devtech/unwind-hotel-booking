@@ -28,7 +28,7 @@ const page = () => {
             <div className='' style={{ backgroundColor: "#f8f8f8", padding: "90px,0px" }}>
                 <About />
             </div>
-            <div className='' style={{ backgroundColor: "#f8f8f8", padding: "90px,0px" }}>
+            <div className='mb-5' style={{ backgroundColor: "#f8f8f8", padding: "90px,0px" }}>
                 <Booking />
 
             </div>

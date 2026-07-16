@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import { FaGreaterThan } from "react-icons/fa";
-import RestoandBar from '../components/RestoandBar';
 import Footer from '../components/Footer';
+import RestoandBar from '../components/RestoandBar';
 
 
 const page = () => {
@@ -22,10 +22,8 @@ const page = () => {
                 </div>
             </div>
 
-            <div className='' style={{ padding: "90px", backgroundColor: "#f8f8f8" }}>
-                <RestoandBar />
-            </div>
-
+           
+<RestoandBar/>
 
 
             <Footer />
